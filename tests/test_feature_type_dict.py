@@ -11,3 +11,4 @@ def test_create_feature_type_dict():
     
     assert 'numerical' in feature_types, "The dictionary should have a 'numerical' key"
     assert 'categorical' in feature_types, "The dictionary should have a 'categorical' key"
+    

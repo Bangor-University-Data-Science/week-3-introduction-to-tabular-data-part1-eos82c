@@ -8,4 +8,6 @@ def create_summary_table(df):
     Returns:
         pd.DataFrame: A summary DataFrame.
     """
-    pass  # Implement the logic here
+
+
+
