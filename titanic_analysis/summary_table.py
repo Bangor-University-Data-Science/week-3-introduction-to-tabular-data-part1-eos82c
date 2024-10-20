@@ -10,8 +10,4 @@ def create_summary_table(df):
     Returns:
         pd.DataFrame: A summary DataFrame.
     """
-    return pd.DataFrame({"Feature Name": df.columns, "Data Type": df.dtypes, "Number of Unique Values": df.nunique(), "Has Missing Values?": df.isnll().any()})
-
-
-
-
+    return pd.DataFrame({"Feature Name": df.columns, "Data Type": df.dtypes, "Number of Unique Values": df.nunique(), "Has Missing Values?": df.isnull().any()})
