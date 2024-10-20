@@ -15,3 +15,4 @@ def test_create_summary_table():
     assert 'Data Type' in summary_df.columns, f"Summary should include 'Data Type'. Found columns: {summary_df.columns.tolist()}"
     assert 'Has Missing Values?' in summary_df.columns, f"Summary should include 'Has Missing Values?'. Found columns: {summary_df.columns.tolist()}"
     assert 'Number of Unique Values' in summary_df.columns, f"Summary should include 'Number of Unique Values'. Found columns: {summary_df.columns.tolist()}"
+    
